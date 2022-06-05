@@ -1,0 +1,118 @@
+body {
+    background-color: #051F20;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    color: #F1E299;
+}
+
+h1 {
+    color: #DAF1DE;
+    font-weight: lighter;
+    font-size: 40px
+}
+
+h2 {
+    color: #F1E299;
+    font-weight: lighter;
+    font-size: 30px
+}
+
+h3 {
+    color: #F1E299;
+    font-weight: lighter;
+    font-size: 25px
+}
+
+h4 {
+    color: #F1E299;
+    font-weight: lighter;
+}
+
+h5 {
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: right
+}
+
+.topnav {
+  background-color: #04191A;
+  overflow: hidden;
+  width: 1000px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #163832;
+  color: white;
+}
+
+header {
+
+    background-color: #0B2B26;
+    width: 1000px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #163832;
+    width: 1000px;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#introimages img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  text-align: center;
+  text-align: justify;
+
+
+}
+
+.centredimage {
+  text-align: center;
+}
+
+#profileimages img {
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
